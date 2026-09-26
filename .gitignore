@@ -1,0 +1,6 @@
+# Original camera RAW files are archival source material, not web assets.
+*.CR2
+
+# Local development and deployment metadata
+.DS_Store
+.vercel/

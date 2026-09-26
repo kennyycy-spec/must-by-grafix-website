@@ -1,0 +1,5 @@
+# Keep the Vercel deployment lean; RAW photos are not used by the site.
+**/*.CR2
+.DS_Store
+.git
+.vercel
