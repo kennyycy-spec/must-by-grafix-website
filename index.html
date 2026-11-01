@@ -22,7 +22,7 @@ function setTimelineEntry(entry,active){entry.classList.toggle('is-active',activ
 function clearTimelineEntries(){timelineEntries.forEach(entry=>setTimelineEntry(entry,false));}
 timelineEntries.forEach(entry=>{entry.addEventListener('mouseenter',()=>{clearTimelineEntries();setTimelineEntry(entry,true);});entry.addEventListener('mouseleave',clearTimelineEntries);entry.addEventListener('focus',()=>{clearTimelineEntries();setTimelineEntry(entry,true);});entry.addEventListener('blur',clearTimelineEntries);});
 const blackjack=[['6680','51-18-34'],['6682','57-15-36'],['6683','49-19-41'],['6684','48-19-42'],['6686','58-17-35'],['6687','53-17-32'],['6688','48-20-38'],['6689','49-16-35'],['9914','54-17-32'],['9981','54-17-36'],['9982','56-16-33'],['9983','53-19-32'],['6002','48-22-42'],['6003','53-20-38'],['6533','55-18-35'],['6690','48-20-41'],['6691','49-19-43']];
-const galaxius=[['ALZIR','53-17-38'],['ALYA-XL','49-22-43'],['CHARA','48-20-38'],['CHASON','56-16-33'],['DALIM','50-20-43'],['DIYA','47-19-41'],['HEINZ','48-19-40'],['HELENE','53-18-46'],['SINOPE','53-18-36'],['THEBE','48-21-44']];
+const galaxius=[['ALZIR','53-17-38'],['ALYA-XL','49-22-43'],['CHARA','48-20-38'],['CHASON','56-16-33'],['DALIM','50-20-43'],['DIYA','47-19-41'],['HEINZ','48-19-40'],['HELENE','53-18-46'],['SINOPE','53-18-36'],['THEBE','48-21-44'],['CASTOR','—']];
 const kti=['881','882','883','884','885','886','888','889','902','905','906','907','908','909'].map(x=>[x,'See line sheet for sizes']);
 const ktiColourOptions={
   '882':[['A2','A2','#ad3447'],['A3','A3','#c7d7df'],['A7','A7','#674839'],['A10','A10','#b85d6d']],
